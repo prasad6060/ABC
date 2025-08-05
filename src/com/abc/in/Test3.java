@@ -11,6 +11,7 @@ public class Test3 {
 		
 		for(char c1:c)
 		{
+			//removing diplicates
 			
 			if(sb.indexOf(String.valueOf(c1)) == -1)   
 			{
@@ -18,6 +19,7 @@ public class Test3 {
 				sb.append(c1);
 			}
 		}
+		System.out.println(sb);
 		System.out.println(sb);
 	}
 
